@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منوی دیجیتال کافه</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo_LA">
+            <img src="assets/icons/LA.png" alt="لوگو">
+            <h1>coffee LA</h1>
+        </div>
+        <div class="menu-container">
+            <ul id="categories">
+                <li data-category="cold-coffee" class="active">
+                    <div class="icon-box">
+                        <img src="./assets/icons/cold_coffee.png" alt="نوشیدنی سرد">
+                    </div>
+                    <span class="category-text">نوشیدنی‌های سرد بر پایه قهوه</span>
+                </li>
+                <li data-category="hot-coffee">
+                    <div class="icon-box">
+                        <img src="./assets/icons/hot_coffee.png" alt="نوشیدنی گرم">
+                    </div>
+                    <span class="category-text">نوشیدنی‌های گرم بر پایه قهوه</span>
+                </li>
+                <li data-category="hot">
+                    <div class="icon-box">
+                        <img src="./assets/icons/hot.png" alt="گرم">
+                    </div>
+                    <span class="category-text">نوشیدنی‌های گرم</span>
+                </li>
+                <li data-category="cold">
+                    <div class="icon-box">
+                        <img src="./assets/icons/cold.png" alt="سرد">
+                    </div>
+                    <span class="category-text">نوشیدنی‌های سرد</span>
+                </li>
+                <li data-category="dami_coffee">
+                    <div class="icon-box">
+                        <img src="./assets/icons/dami.png" alt="دمی">
+                    </div>
+                    <span class="category-text">قهوه دمی</span>
+                </li>
+                <li data-category="cake">
+                    <div class="icon-box">
+                        <img src="./assets/icons/cake.png" alt="کیک">
+                    </div>
+                    <span class="category-text">کیک و دسر</span>
+                </li>
+                <li data-category="food">
+                    <div class="icon-box">
+                        <img src="./assets/icons/food.png" alt="غذا">
+                    </div>
+                    <span class="category-text">پیش غذا</span>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="content-container" id="content">
+        <!-- محتوای پیش‌فرض هنگام بارگذاری صفحه -->
+    </section>
+
+    <!-- پنجره (modal) برای نمایش اطلاعات -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title">عنوان آیتم</h2>
+            <p id="modal-description">توضیحات مربوط به ارزش غذایی و کالری این آیتم.</p>
+        </div>
+    </div>
+    <div id="address-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>ادرس ما:</h2>
+            <p>فلسطین 1</p>
+            <p>  ساعت6:30 تا24</p>
+            <p style="color: rgb(168, 166, 83);"> inestagram:la.takeaway.cofe</p>
+
+
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
